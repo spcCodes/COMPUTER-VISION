@@ -15,7 +15,7 @@ cap = cv2.VideoCapture(0) #0 refers to only web cam
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 
 #create a output file for saving the video
-out = cv2.VideoWriter('VideoOutput.avi', fourcc , 20.0 , (640,480))
+out = cv2.VideoWriter('./VideoOutput.avi', fourcc , 20.0 , (640,480))
 
 
 while True:
@@ -38,7 +38,8 @@ while True:
 cap.release()
 out.release()
 cv2.destroyAllWindows()
-
+cv2.waitKey(1)
+cv2.waitKey(1)
 #Sometimes the windows doesnot get destroyed so use this
 for i in range (1,5):
     cv2.waitKey(1)
