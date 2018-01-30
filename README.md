@@ -9,3 +9,4 @@ All the projects are mentioned below in following order
 3. Draw different shapes on the images( line , rectangle , circle , polygon) --DrawImages.py
 4. Basic Image operations (making a region in the image white , marking a particular region and copying it to another region)-- ImageOperations.py
 5. Image arithmetic - Adding up two images  and also masking one image and do the bitwise operations and adding the two images -- ImageArithmetic.py
+
